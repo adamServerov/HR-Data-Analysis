@@ -41,12 +41,11 @@ if __name__ == '__main__':
     a_office.index = 'A' + a_office['employee_office_id'].astype(str)
     b_office.index = 'B' + b_office['employee_office_id'].astype(str)
     hr_data.index = hr_data['employee_id']
-    lst_a =  a_office.index.tolist()
-    lst_b = b_office.index.tolist()
-    lst_hr = hr_data.index.tolist()
-    print(lst_a)
-    print(lst_b)
-    print(lst_hr)
-    # print(a_office.head())
-    # print(b_office.head())
-    # print(hr_data.head())
+    unified_office = pd.concat([a_office,b_office])
+    result = unified_office.merge(hr_data, left_index = True, right_index = True,how = 'inner', indicator = True)
+    final_table = result.drop(['employee_office_id', 'employee_id', '_merge'], axis = 1)
+    final_table.sort_index(inplace = True)
+    print(final_table.index.tolist())
+    print(final_table.columns.tolist())
+
+

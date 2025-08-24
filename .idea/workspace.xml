@@ -4,13 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a1ad950-0b24-492b-9710-2e9fe784e508" name="Changes" comment="" />
+    <list default="true" id="1a1ad950-0b24-492b-9710-2e9fe784e508" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.author_contents_storage_db-shm" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.author_contents_storage_db-shm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HR Data Analysis/Merge everything/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/HR Data Analysis/Merge everything/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HR Data Analysis/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/HR Data Analysis/lesson-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HR Data Analysis/task/explore.py" beforeDir="false" afterPath="$PROJECT_DIR$/HR Data Analysis/task/explore.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HR Data Analysis/task/test/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/HR Data Analysis/task/test/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HR Data Analysis/task/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/HR Data Analysis/task/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-remote-info.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EduFeatureManager">{}</component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/HR Data Analysis/task/explore.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HR Data Analysis/task/test/__init__.py" root0="FORCE_HIGHLIGHTING" />
@@ -32,6 +46,9 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python tests.Unittests in tests.py.executor": "Run",
     "Python.explore.executor": "Run",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "develop",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
