@@ -1,3 +1,5 @@
+from typing import final
+
 import pandas as pd
 import requests
 import os
@@ -45,7 +47,15 @@ if __name__ == '__main__':
     result = unified_office.merge(hr_data, left_index = True, right_index = True,how = 'inner', indicator = True)
     final_table = result.drop(['employee_office_id', 'employee_id', '_merge'], axis = 1)
     final_table.sort_index(inplace = True)
-    print(final_table.index.tolist())
-    print(final_table.columns.tolist())
-
+    depart_s = final_table.sort_values(by = 'average_monthly_hours', ascending = False).Department[:10]
+    #depart_s = final_table.nlargest(n = 10, columns =  'average_monthly_hours').Department
+    total_n = final_table.query("Department == 'IT' & salary == 'low'").number_project.sum()
+    #emplo_info = final_table.loc[final_table.index.isin(['A4','B7064','A3033']), ['last_evaluation', 'satisfaction_level']].values.tolist()
+    emplo_info = []
+    for emp in ['A4', 'B7064', 'A3033']:
+        emp_data = final_table.loc[final_table.index == emp, ['last_evaluation', 'satisfaction_level']]
+        emplo_info.append(emp_data.values[0].tolist())
+    print(depart_s.tolist())
+    print(total_n.tolist())
+    print(emplo_info)
 

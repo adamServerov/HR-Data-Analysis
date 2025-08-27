@@ -1,3 +1,3 @@
-from test.tests import MergingTest
+from test.tests import QuestionTest
 
-if __name__ == '__main__':    MergingTest().run_tests()
+if __name__ == '__main__':    QuestionTest().run_tests()

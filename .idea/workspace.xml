@@ -6,10 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="1a1ad950-0b24-492b-9710-2e9fe784e508" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.author_contents_storage_db-shm" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.author_contents_storage_db-shm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.author_contents_storage_db-wal" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.author_contents_storage_db-wal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HR Data Analysis/Merge everything/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/HR Data Analysis/Merge everything/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HR Data Analysis/Get the insights/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/HR Data Analysis/Get the insights/task-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HR Data Analysis/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/HR Data Analysis/lesson-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HR Data Analysis/task/explore.py" beforeDir="false" afterPath="$PROJECT_DIR$/HR Data Analysis/task/explore.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HR Data Analysis/task/test/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/HR Data Analysis/task/test/tests.py" afterDir="false" />
@@ -39,19 +40,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Edu.LearningObjectsStorageType": "SQLite",
-    "Edu.Yaml.Migrate": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Unittests in tests.py.executor": "Run",
-    "Python.explore.executor": "Run",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "develop",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Edu.LearningObjectsStorageType&quot;: &quot;SQLite&quot;,
+    &quot;Edu.Yaml.Migrate&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Unittests in tests.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.explore.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
