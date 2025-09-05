@@ -1,3 +1,3 @@
-from test.tests import QuestionTest
+from test.tests import AggTest
 
-if __name__ == '__main__':    QuestionTest().run_tests()
+if __name__ == '__main__':    AggTest().run_tests()

@@ -55,7 +55,17 @@ if __name__ == '__main__':
     for emp in ['A4', 'B7064', 'A3033']:
         emp_data = final_table.loc[final_table.index == emp, ['last_evaluation', 'satisfaction_level']]
         emplo_info.append(emp_data.values[0].tolist())
-    print(depart_s.tolist())
-    print(total_n.tolist())
-    print(emplo_info)
+    print(result.columns.tolist())
+    def count_bigger_5(series):
+        return (series > 5).sum()
+    mead_count = result.groupby('left').agg({'number_project' : ['median', count_bigger_5]})
+    # file_path = r"C:\Users\AdamSinov\Documents\final_table.xlsx"
+    # new_field = final_table.to_excel(file_path, index = False)
+    time_spend = final_table.groupby('left').agg({'time_spend_company' : ['mean', 'median']})
+    work_acc  = round(final_table.groupby('left').agg({'Work_accident' : 'mean'}),2)
+    deviations = round(final_table.groupby('left').agg({'number_project' : ['median', count_bigger_5],
+                                                  'time_spend_company' : ['mean', 'median'],
+                                                  'Work_accident' : 'mean',
+                                                  'last_evaluation' : ['mean', 'std']}), 2)
+    print(deviations.to_dict())
 
