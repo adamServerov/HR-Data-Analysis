@@ -1,3 +1,3 @@
-from test.tests import AggTest
+from test.tests import PivotTest
 
-if __name__ == '__main__':    AggTest().run_tests()
+if __name__ == '__main__':    PivotTest().run_tests()

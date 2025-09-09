@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a1ad950-0b24-492b-9710-2e9fe784e508" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.author_contents_storage_db-shm" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.author_contents_storage_db-shm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.author_contents_storage_db-wal" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.author_contents_storage_db-wal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HR Data Analysis/Get the insights/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/HR Data Analysis/Get the insights/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HR Data Analysis/Aggregate the data/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/HR Data Analysis/Aggregate the data/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HR Data Analysis/Draw up pivot tables/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/HR Data Analysis/Draw up pivot tables/task-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HR Data Analysis/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/HR Data Analysis/lesson-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HR Data Analysis/task/explore.py" beforeDir="false" afterPath="$PROJECT_DIR$/HR Data Analysis/task/explore.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HR Data Analysis/task/test/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/HR Data Analysis/task/test/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HR Data Analysis/task/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/HR Data Analysis/task/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-remote-info.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -55,7 +55,6 @@ if __name__ == '__main__':
     for emp in ['A4', 'B7064', 'A3033']:
         emp_data = final_table.loc[final_table.index == emp, ['last_evaluation', 'satisfaction_level']]
         emplo_info.append(emp_data.values[0].tolist())
-    print(result.columns.tolist())
     def count_bigger_5(series):
         return (series > 5).sum()
     mead_count = result.groupby('left').agg({'number_project' : ['median', count_bigger_5]})
@@ -67,5 +66,13 @@ if __name__ == '__main__':
                                                   'time_spend_company' : ['mean', 'median'],
                                                   'Work_accident' : 'mean',
                                                   'last_evaluation' : ['mean', 'std']}), 2)
-    print(deviations.to_dict())
+    first = round(final_table.pivot_table(index='Department', columns=['left', 'salary'], values='average_monthly_hours',aggfunc= 'median'),2)
 
+    second = round(final_table.pivot_table(index='time_spend_company', columns='promotion_last_5years',
+                            values=['satisfaction_level', 'last_evaluation'], aggfunc= ['min', 'max', 'mean']),2)
+    fin = first.loc[(first[(0, 'high')] < first[(0, 'medium')])
+                    | (first[( 1, 'low')] < first[( 1, 'high')])]
+
+    fin_s = second.loc[second[('mean', 'last_evaluation', 0)] > second[('mean', 'last_evaluation', 1)]]
+    print(fin.to_dict())
+    print(fin_s.to_dict())
